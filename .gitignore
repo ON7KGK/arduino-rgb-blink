@@ -1,0 +1,50 @@
+# Arduino build files
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+*.lst
+
+# Build directories
+build/
+*.build/
+
+# Arduino IDE
+.build/
+.vscode/
+.vs/
+
+# Arduino CLI
+.arduino/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Libraries (uncomment if you want to ignore libraries)
+# libraries/
+
+# Secrets and credentials
+secrets.h
+credentials.h
